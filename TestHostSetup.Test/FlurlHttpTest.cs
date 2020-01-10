@@ -33,7 +33,7 @@ namespace TestHostSetup.Test
 
                 // This fails ... 
                 // I want to test if the WeatherForecastController made a call to ishetalweekend.be.
-                // This approach worked in our 2.2 tests, but since converting to 3.1 it no longer does.
+                // This approach worked in our dotnet core 2.2 tests, but since converting to dotnet core 3.1 it no longer does.
                 test.ShouldHaveMadeACall();
             }
         }
